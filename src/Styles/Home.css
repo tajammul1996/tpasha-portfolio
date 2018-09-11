@@ -36,7 +36,7 @@
   height: 125px;
   border-radius: 50%;
   /* left: 75px; */
-  border: 1px solid black;
+  border: 1.5px solid white;
 }
 
 .icon-container {
@@ -53,6 +53,10 @@
 .icon-container div:hover  {
   opacity: 1;
   transition: all 0.5s ease-out;
+}
+
+.icon-container div a {
+  color: inherit;
 }
 
 .icon-container div:nth-child(2):hover{

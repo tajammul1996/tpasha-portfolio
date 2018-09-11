@@ -12,13 +12,16 @@ class Home extends Component {
           <img className='circle-img' src={'https://avatars1.githubusercontent.com/u/9709464?s=400&u=c2b61497d969fd435eeddb77560d7d3e5e1195f1&v=4'} alt='Tajammul Pasha'/>
         </div>
         <div>
-          <h1 className='heading'>Hi..</h1>
+          <h1 className='heading'>Hi! My name is Tajammul.</h1>
+        </div>
+        <div>
+          <h1 className='heading'>Hi! My name is Tajammul.</h1>
         </div>
         <div className='icon-container'>
-          <div><a href="http://www.google.com" target='_blank'><FontAwesomeIcon size='lg' icon={faLinkedin} /></a></div>
-          <div><FontAwesomeIcon size='lg' icon={faGooglePlus}/></div>
-          <div><FontAwesomeIcon size='lg' icon={faTwitter} /></div>
-          <div><FontAwesomeIcon size='lg' icon={faGithub} /></div>
+          <div><a href="https://www.linkedin.com/in/tajammul1996/" target='_blank'><FontAwesomeIcon size='lg' icon={faLinkedin} /></a></div>
+          <div><a href="https://plus.google.com/u/0/109831505552323397507" target="_blank"><FontAwesomeIcon size='lg' icon={faGooglePlus}/></a></div>
+          <div><a href="https://twitter.com/tajammul1996" target="_blank"><FontAwesomeIcon size='lg' icon={faTwitter} /></a></div>
+          <div><a href="https://github.com/tajammul1996" target='_blank'><FontAwesomeIcon size='lg' icon={faGithub} /></a></div>
         </div>
       </div>
     );
