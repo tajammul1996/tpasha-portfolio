@@ -31,6 +31,13 @@
   /* letter-spacing: 1px;  */
 }
 
+.subheading {
+  font-size: 1em;
+  font-weight: 300;
+  color: white;
+  margin-top: 10px;
+}
+
 .circle-img {
   width: 125px;
   height: 125px;
@@ -41,7 +48,7 @@
 
 .icon-container {
   display: flex;
-  margin-top: 25px;
+  margin-top: 20px;
 }
 
 .icon-container div {
