@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600');
+
+* {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0, 0.7)), url('https://images.unsplash.com/photo-1517842645767-c639042777db?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3a2416088253831803a2e9fdc1b71462&auto=format&fit=crop&w=1350&q=80');
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heading {
+  font-size: 1.1em;
+  font-weight: 400;
+  color: white;
+  z-index: 50;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 30px;
+  /* text-transform: lowercase; */
+  word-spacing: 2px;
+  /* letter-spacing: 1px;  */
+}
+
+.circle-img {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  /* left: 75px; */
+  border: 1px solid black;
+}
+
+.icon-container {
+  display: flex;
+  margin-top: 25px;
+}
+
+.icon-container div {
+  color: white;
+  margin-left: 10px;
+  opacity: 0.7;
+}
+
+.icon-container div:hover  {
+  opacity: 1;
+  transition: all 0.5s ease-out;
+}
+
+.icon-container div:nth-child(2):hover{
+  color: #CC3333;
+}
+
+.icon-container div:nth-child(3):hover{
+  color: #1DA1F2;
+}
+
+.icon-container div:nth-child(1):hover{
+  color: #0077B5;
+}
+
+.icon-container div:nth-child(4):hover{
+  color: #FFFFFF;
+}
