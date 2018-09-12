@@ -8,7 +8,7 @@ const AppRouter = () => {
   return(
     <BrowserRouter>
       <div>
-        <Route path='/' component={Home} exact={true}/>
+        <Route path='/tpasha-portfolio' component={Home} exact={true}/>
       </div>
     </BrowserRouter>
   );
